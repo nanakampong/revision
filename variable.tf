@@ -4,8 +4,3 @@ variable "region" {
   description = "this is default region"
 }
 
-variable "user_name" {
-  default = "Jack"
-  type = string
-  description = "this is the default name"
-}
