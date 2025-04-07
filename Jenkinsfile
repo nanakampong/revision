@@ -14,7 +14,7 @@ pipeline {
         }
         stage('INITILIASATION') {
             steps {
-              sh: 'terraform init'
+              sh 'terraform init'
             }
         }
         stage('FORMATTING') {
